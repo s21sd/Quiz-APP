@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz-APP</title>
+    <link rel="icon" href="img/logo.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="navbar">
+        <img class="logo" src="img/logo.png" alt="nav-img">
+        <h1>Quiz-APP</h1>
+    </div>
+    <div class="main-container">
+        <div class="quiz-div">
+            <div>
+                <p>Questions <span class="questions_Count">1</span>/5</p>
+                <h1 class="questions"></h1>
+                <p class="difficulty"></p>
+            </div>
+            <div>
+                <div id="one" class="option-1-div">
+                    <input id="radio1" type="radio" name="optionGroup">
+                    <h1 id="opt-1" class="option-1"></h1>
+                </div>
+                <div id="two" class="option-1-div">
+                    <input id="radio2" type="radio" name="optionGroup">
+                    <h1 id="opt-2" class="option-1"></h1>
+                </div>
+                <div id="three" class=" option-1-div">
+                    <input id="radio3" type="radio" name="optionGroup">
+                    <h1 id="opt-3" class="option-1"></h1>
+                </div>
+                <div id="four" class="option-1-div">
+                    <input id="radio4" type="radio" name="optionGroup">
+                    <h1 id="opt-4" class="option-1"></h1>
+                </div>
+            </div>
+
+            <button class="next-btn">Next</button>
+        </div>
+    </div>
+    <div class="result-show">
+        <h3 class="result"></h3>
+        <button class="restart">Restart</button>
+    </div>
+
+</body>
+<script src="script.js"></script>
+
+</html>

@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Montserrat:ital,wght@0,700;1,700&family=Prompt:wght@300&family=Tilt+Neon&display=swap');
+
+body {
+    margin: auto;
+    padding: auto;
+    font-family: 'Kumbh Sans', sans-serif;
+    background-color: #9e95c2;
+}
+
+.navbar {
+    display: flex;
+    background-color: #8b80b6;
+    align-items: center;
+}
+
+.logo {
+    width: 90px;
+    margin: 6px;
+}
+
+p {
+    color: #fca830;
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 12px;
+    margin: 22px;
+    top: 17vh;
+    left: 30vw;
+
+}
+
+.quiz-div1 {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 32vh;
+    background-color: #fafafa;
+    box-shadow: 2px 2px 5px #babecc,
+        -5px -5px 10px #ffffff73;
+    padding: 20px;
+    border-radius: 9px;
+    font-family: Josefin Sans;
+
+}
+
+.quiz-div {
+    display: grid;
+    background-color: #fafafa;
+    box-shadow: 2px 2px 5px #babecc,
+        -5px -5px 10px #ffffff73;
+    padding: 10px 10px 10px 10px;
+    border-radius: 9px;
+
+}
+
+.option-1-div {
+    display: flex;
+    margin-top: 12px;
+    border-radius: 9px;
+    align-items: center;
+    border: 2px solid #8b80b6;
+    background-color: #ffffff;
+    cursor: pointer;
+}
+
+.option-1 {
+    margin-left: 16px;
+}
+
+/* Default radio button styles */
+input[type="radio"] {
+    margin-left: 14px;
+    appearance: none;
+    outline: 3px solid black;
+    outline-offset: 3px;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+
+}
+
+input[type="radio"]:checked {
+    background-color: #3d3c41;
+
+}
+
+.option-1-div:hover {
+    background-color: #8b80b6;
+
+}
+
+.next-btn {
+    font-size: 1.5rem;
+    border-radius: 9px;
+    margin-bottom: 12px;
+    margin-top: 12px;
+    width: 100%;
+    height: 80%;
+    background-color: #8b80b6;
+    cursor: pointer;
+    color: white;
+    /* display: none; */
+
+}
+
+.next-btn1 {
+    font-size: 1.5rem;
+    border-radius: 9px;
+    margin-bottom: 12px;
+    margin-top: 12px;
+    width: 100%;
+    height: 80%;
+    background-color: #8b80b6;
+    cursor: pointer;
+    color: white;
+    /* display: none; */
+
+}
+
+.result-show {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    right: 30%;
+    border-radius: 12px;
+    padding: 4px;
+    text-align: center;
+    background-color: #8b80b6;
+    display: none;
+    color: white;
+
+}
+
+.restart {
+
+    font-size: 1.2rem;
+    border-radius: 9px;
+    margin-bottom: 12px;
+    margin-top: 12px;
+    width: 50%;
+    height: 80%;
+    background-color: #8b80b6;
+    cursor: pointer;
+    color: white;
+}
