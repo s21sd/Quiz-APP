@@ -1,6 +1,7 @@
 # Quiz App
 
 This is a Quiz App project built using HTML, CSS, JavaScript, and an external API. It allows users to take quizzes and test their knowledge on various topics. The app fetches questions from an API and presents them to the user for answering.
+https://s21sd.github.io/Quiz-APP/
 
 ## Features
 
